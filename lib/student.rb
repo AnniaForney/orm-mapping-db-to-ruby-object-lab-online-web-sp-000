@@ -111,7 +111,7 @@ class Student
     SELECT *
     FROM students
     WHERE grade = 10
-
+    GROUP BY id 
     SQL
 
     DB[:conn].execute(sql).map do |row|
