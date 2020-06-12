@@ -110,7 +110,9 @@ class Student
   def self.student_in_grade_10
     sql = <<-SQL
 
-    
+    SELECT *
+    FROM students
+    ORDER BY
   end
 
   def self.all_students_in_grade_X
