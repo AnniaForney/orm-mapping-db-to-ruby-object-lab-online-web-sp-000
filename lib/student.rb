@@ -112,7 +112,6 @@ class Student
     FROM students
     WHERE grade = 10
     GROUP BY student.id 
-    LIMIT 1
     SQL
 
     DB[:conn].execute(sql, student).map do |row|
