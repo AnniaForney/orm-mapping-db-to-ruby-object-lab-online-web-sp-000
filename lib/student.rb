@@ -111,7 +111,7 @@ class Student
     SELECT *
     FROM students
     WHERE grade = 10
-    SELECT array[0]
+    SELECT student.id
     LIMIT 1
     SQL
 
