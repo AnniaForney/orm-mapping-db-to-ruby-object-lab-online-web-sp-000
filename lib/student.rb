@@ -111,6 +111,7 @@ class Student
     SELECT *
     FROM students
     WHERE grade = 10
+    GROUP BY student.id 
     LIMIT 1
     SQL
 
