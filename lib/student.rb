@@ -96,7 +96,7 @@ class Student
 
     SELECT *
     FROM students
-    WHERE grade = 10
+    WHERE grade = ? 
 
     LIMIT 1
 
