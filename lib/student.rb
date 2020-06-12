@@ -96,7 +96,7 @@ class Student
 
     SELECT *
     FROM students
-    WHERE grade = ?
+    WHERE x = ?
     LIMIT 1
 
     SQL
