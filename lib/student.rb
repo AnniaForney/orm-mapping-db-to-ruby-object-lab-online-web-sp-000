@@ -111,7 +111,8 @@ class Student
     sql = <<-SQL
 
     SELECT *
-
+    FROM students
+    
   end
 
 end
