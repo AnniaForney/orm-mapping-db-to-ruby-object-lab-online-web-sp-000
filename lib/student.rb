@@ -112,7 +112,7 @@ class Student
 
     SELECT *
     FROM students
-    
+    ORDER BY 
   end
 
 end
