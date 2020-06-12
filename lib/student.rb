@@ -111,6 +111,7 @@ class Student
     SELECT *
     FROM students
     WHERE grade = 10
+    SELECT array[1]
     LIMIT 1
     SQL
 
