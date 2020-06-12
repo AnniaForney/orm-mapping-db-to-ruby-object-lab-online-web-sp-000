@@ -96,7 +96,7 @@ class Student
 
     SELECT *
     FROM students
-    WHERE x = ?
+    WHERE x = 10
     LIMIT 1
 
     SQL
