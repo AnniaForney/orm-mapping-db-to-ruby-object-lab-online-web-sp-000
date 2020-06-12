@@ -112,7 +112,7 @@ class Student
 
     SELECT *
     FROM students
-    ORDER BY
+    ORDER BY (grade, x)
   end
 
   def self.all_students_in_grade_X
