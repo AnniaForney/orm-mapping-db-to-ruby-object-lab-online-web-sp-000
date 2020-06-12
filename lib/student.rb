@@ -113,6 +113,8 @@ class Student
     SELECT *
     FROM students
     ORDER BY (grade, x)
+
+    LIMIT 1 
   end
 
   def self.all_students_in_grade_X
